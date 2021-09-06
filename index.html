@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://d3js.org/d3.v6.js"></script>
+  <script src="https://cdn.skypack.dev/d3-force@3"></script>
+</head>
+<body>
+
+<div id="networkContainer" class="networkContainer">
+  <svg id="networkPlot" class="networkPlot">
+    <g class="links"></g>
+    <g class="nodes"></g>
+    <g class="link-labels"></g>
+  </svg>
+</div>
+
+<label for="subject">Subject</label>
+<input type="text" id="subject" value="">
+<label for="predicate">Predicate</label>
+<input type="text" id="predicate" value="">
+<label for="object">Object</label>
+<input type="text" id="object" value="">
+<a href="#" id="submit">Submit</a>
+<script src="index.js"></script>
+</body>
+</html>
